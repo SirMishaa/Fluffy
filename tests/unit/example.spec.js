@@ -1,3 +1,9 @@
+/*
+ * Fluffy - https://github.com/SirMishaa/Fluffy
+ * Author - SirMishaa
+ * License GNU General Public License v3.0 - https://github.com/SirMishaa/Fluffy/blob/master/LICENSE
+ */
+
 import { shallowMount } from "@vue/test-utils";
 import HelloWorld from "@/components/HelloWorld.vue";
 

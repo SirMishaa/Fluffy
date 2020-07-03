@@ -1,3 +1,9 @@
+/*
+ * Fluffy - https://github.com/SirMishaa/Fluffy
+ * Author - SirMishaa
+ * License GNU General Public License v3.0 - https://github.com/SirMishaa/Fluffy/blob/master/LICENSE
+ */
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite

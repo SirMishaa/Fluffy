@@ -1,7 +1,22 @@
 {
   "name": "fluffy",
+  "license": "GPL-3.0-only",
+  "author": {
+    "email": "mishapro@mm.st",
+    "name": "Mishaa",
+    "url": "https://github.com/SirMishaa/"
+  },
+  "contributors": [],
+  "description": "Fluffy is a fully manageable web interface for the discord bot Nota Bot.",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/SirMishaa/Fluffy"
+  },
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "<=0.12.0"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
