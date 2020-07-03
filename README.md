@@ -5,8 +5,6 @@
 
 **Fluffy** is a fully manageable web interface for the discord bot [**Nota Bot**](https://github.com/DigitalPulseSoftware/NotaBot).
 
-Features : WIP
-
 ## Technologies mainly used
 - [**Vue**](https://vuejs.org/) - JavaScript framework for building user interfaces and single-page applications
 
@@ -21,6 +19,7 @@ Features : WIP
 
 - [**CircleCI**](https://circleci.com/) - Continuous Integration and Delivery service
 
+
 ## Contribute to Fluffy
 Before contributing, **you must read and respect the [Code of conduct](#code-of-conduct).**
 In order to be able to contribute to this project, you need the following knowledge:  
@@ -30,7 +29,8 @@ In order to be able to contribute to this project, you need the following knowle
 - Intermediate knowledge of the **Unit Test concept**
 
 Your code, commits, comments, issues and pull requests **must be written completely in English**.
-You must respect the [**Commit Message Guidelines**](commit-message-guidelines).
+You must respect the [**Commit Message Guidelines**](#commit-message-guidelines).
+
 
 ## Code of conduct
 As contributors and maintainers of the Fluffy project, we pledge to respect everyone who contributes by posting issues, updating documentation, submitting pull requests, providing feedback in comments, and any other activities.
@@ -41,8 +41,10 @@ We promise to extend courtesy and respect to everyone involved in this project r
 
 If any member of the community violates this code of conduct, the maintainers of the Angular project may take action, removing issues, comments, and PRs or blocking accounts as deemed appropriate.
 
+
 ## Commit Message Guidelines
 We have very precise rules over how our git commit messages can be formatted. This leads to **more readable messages** that are easy to follow when looking through the **project history**.
+
 
 ### Commit Message Format
 
@@ -87,6 +89,7 @@ Must be one of the following:
 -   **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 -   **test**: Adding missing tests or correcting existing tests
 
+
 ### Subject
 The subject contains a succinct description of the change:
 
@@ -94,8 +97,10 @@ The subject contains a succinct description of the change:
 -   don't capitalize the first letter
 -   no dot (.) at the end
 
+
 ### Body
 Just as in the **subject**, use the imperative, present tense: "change" not "changed" nor "changes". The body should include the motivation for the change and contrast this with previous behavior.
+
 
 ### Footer
 The footer should contain any information about **Breaking Changes** and is also the place to reference GitHub issues that this commit **Closes**.
