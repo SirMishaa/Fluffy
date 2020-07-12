@@ -6,12 +6,12 @@
 
 <template>
   <div
-    class="flex-none w-full md:max-w-xs shadow-xl bg-white relative border-t-4 border-red-600"
+    class="flex-none w-full md:max-w-xs shadow-xl bg-white relative border-t-4 border-red-500"
   >
     <nav class="p-8 flex flex-col">
       <div class="inline-flex items-center justify-center">
         <img alt="Logo Fluffy" class="h-20 mr-4" src="@/assets/min-logo.png" />
-        <h1 class="text-5xl fluffy-title leading-none text-red-600 mt-8">
+        <h1 class="text-5xl fluffy-title leading-none text-red-500 mt-8">
           Fluffy
         </h1>
       </div>
@@ -41,7 +41,7 @@
       </div>
     </nav>
     <a
-      class="absolute bottom-0 left-0 bg-red-600 p-2 text-white text-sm w-full text-center"
+      class="absolute bottom-0 left-0 bg-red-500 p-2 text-white text-sm w-full text-center font-bold"
       href="#"
       target="_tab"
     >
@@ -60,7 +60,8 @@ export default {
 
 <style lang="scss">
 .active-section {
-  background: #e53e3e;
+  font-weight: bold;
+  background: #f56565;
   border-radius: 0.25rem;
   padding: 0.5rem;
   color: #fff;

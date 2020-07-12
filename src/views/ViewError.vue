@@ -15,7 +15,7 @@
     />
     <h1 class="text-4xl text-gray-800">
       Houston, nous avons
-      <span class="border-b-4 border-red-600 text-red-600">un problèmes !</span>
+      <span class="border-b-4 border-red-600 text-red-600">un problème !</span>
     </h1>
     <h2 class="text-gray-700 mt-4">
       Impossible de charger les données depuis l'API

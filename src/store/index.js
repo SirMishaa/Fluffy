@@ -29,7 +29,7 @@ export default new Vuex.Store({
           },
           {
             logo: "fas fa-book",
-            linkText: "Fonctionalitées",
+            linkText: "fonctionnalitées",
             redirectTo: "",
             active: false
           },
