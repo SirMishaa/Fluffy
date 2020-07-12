@@ -29,7 +29,7 @@
             <li
               :class="link.active && 'active-section'"
               :key="link.linkText"
-              class="my-3"
+              class="my-3 text-gray-800"
               v-for="link in section.childs"
             >
               <i :class="`${link.logo} mr-4 w-4`"></i
@@ -64,6 +64,6 @@ export default {
   background: #f56565;
   border-radius: 0.25rem;
   padding: 0.5rem;
-  color: #fff;
+  color: #fff !important;
 }
 </style>
