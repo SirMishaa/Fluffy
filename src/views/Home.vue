@@ -5,14 +5,19 @@
   -->
 
 <template>
-  <div>
-    <h1>Homepage of Fluffy</h1>
+  <div class="min-h-screen md:flex">
+    <Sidebar />
+    <div class="flex-1 p-6">
+      <div class="w-full h-full rounded"></div>
+    </div>
   </div>
 </template>
 
 <script>
+import Sidebar from "./Sidebar";
+
 export default {
   name: "Home",
-  components: {}
+  components: { Sidebar }
 };
 </script>
