@@ -6,18 +6,19 @@
 
 <template>
   <div class="min-h-screen md:flex">
-    <Sidebar />
+    <Sidebar :nav-data="this.$store.state.sideBarData" />
     <div class="flex-1 p-6">
-      <div class="w-full h-full rounded"></div>
+      <ViewError />
     </div>
   </div>
 </template>
 
 <script>
 import Sidebar from "./Sidebar";
+import ViewError from "./ViewError";
 
 export default {
   name: "Home",
-  components: { Sidebar }
+  components: { ViewError, Sidebar }
 };
 </script>
