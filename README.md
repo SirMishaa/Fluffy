@@ -5,6 +5,10 @@
 
 **Fluffy** is a fully manageable web interface for the discord bot [**Nota Bot**](https://github.com/DigitalPulseSoftware/NotaBot).
 
+<p align="center">
+  <img alt="logo" src="https://nsa40.casimages.com/img/2020/07/12/200712074515486411.png" />
+  </p>
+
 ## Technologies mainly used
 - [**Vue**](https://vuejs.org/) - JavaScript framework for building user interfaces and single-page applications
 
